@@ -1,0 +1,80 @@
+version: 1
+rules:
+  - pattern: お勧め
+    expected: おすすめ
+
+  - pattern: 出来
+    expected: でき
+
+  - pattern: やっぱり
+    expected: やはり
+
+  - pattern: たぶん
+    expected: おそらく
+
+  - pattern: ちょっと
+    expected: 少し
+
+  - pattern: 施行
+    expected: 施工
+
+  - pattern: /^なので.*/
+    expected: よって
+
+  - pattern: /^ですので.*/
+    expected: よって
+
+  - pattern: /^だから.*/
+    expected: よって
+
+  - pattern: /^でも.*/
+    expected: しかし
+
+  - pattern: いかがでしたか
+    expected: 【単独での使用は不可です。】
+
+  - pattern: して見
+    expected: してみ
+
+  - pattern: して置
+    expected: してお
+
+  - pattern: 建売り
+    expected: 建売
+
+  - pattern: 業社
+    expected: 業者
+
+  - pattern: 導線
+    expected: 動線
+
+  - pattern: お住い
+    expected: お住まい
+
+  - pattern: いい
+    expected: 良い
+
+  - pattern: ＿
+    expected: ー
+  - pattern: ①
+    expected: '1'
+  - pattern: I
+    expected: '1'
+  - pattern:
+      - ㎜
+      - ㍉
+    expected: mm
+  - pattern:
+      - ㎝
+      - ㌢
+    expected: cm
+  - pattern: ㍍
+    expected: m
+  - pattern:
+      - ㎞
+      - ㌖
+    expected: km
+  - pattern: ㎡
+    expected: 平方メートル
+  - pattern: ㎎
+    expected: mg
