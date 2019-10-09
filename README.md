@@ -20,15 +20,15 @@ rules:
     expected: おすすめ
 ```
 
-``pattern:``の次に誤った表記、``expected:``の次に正しい表記を登録します。  
+``pattern:``の次に**誤った表記**、``expected:``の次に**正しい表記**を登録します。  
 上の例の場合、記事に``お勧め``と入力すると、``おすすめ``にしろというエラーが表示されます。
   
   
   
-### .textlintファイル
+### .textlintrcファイル
 
 プラグインをインストールすることで、校正の基準を設けることが可能です。  
-falseになっている項目は、機能をoffにしています。  
+**false**になっている項目は、機能をoffにしています。  
 以下に、標準でインストールされている機能を紹介します。  
   
 https://github.com/textlint-ja/textlint-rule-preset-japanese  
@@ -48,4 +48,19 @@ JTF日本語標準スタイルガイドです。
   
 https://github.com/textlint-ja/textlint-rule-prefer-tari-tari  
 例示・並列・対表現の「〜たり〜たりする」をチェックします。  
-**現在うまく動作しません。**
+**現在うまく動作しません。**  
+  
+https://github.com/io-monad/textlint-rule-general-novel-style-ja  
+日本の小説における一般的な作法に従うためのルール集です。  
+  
+https://github.com/lostandfound/textlint-rule-ja-hiragana-keishikimeishi  
+漢字よりもひらがなで表記したほうが読みやすい形式名詞を指摘します。  
+  
+https://github.com/lostandfound/textlint-rule-ja-hiragana-fukushi  
+漢字よりもひらがなで表記したほうが読みやすい副詞を指摘します。  
+  
+https://github.com/lostandfound/textlint-rule-ja-hiragana-hojodoushi  
+漢字よりもひらがなで表記したほうが読みやすい補助動詞を指摘します。  
+  
+https://github.com/textlint-ja/textlint-rule-no-insert-dropping-sa  
+サ抜き、サ入れ表現の誤用をチェックします。
