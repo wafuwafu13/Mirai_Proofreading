@@ -4,7 +4,8 @@
 
 記事をリアルタイム、かつ自動で校正してくれます。  
 使い方、挙動の詳しい情報は以下の動画をご覧ください。  
-https://www.youtube.com/watch?v=M8xn9wpwJkQ
+https://www.youtube.com/watch?v=M8xn9wpwJkQ  
+**後で変える**
 
 ## 機能
 
