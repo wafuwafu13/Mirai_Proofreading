@@ -54,12 +54,6 @@ https://github.com/textlint-ja/textlint-rule-prefer-tari-tari
 https://github.com/io-monad/textlint-rule-general-novel-style-ja  
 日本の小説における一般的な作法に従うためのルール集です。  
   
-https://github.com/lostandfound/textlint-rule-ja-hiragana-keishikimeishi  
-漢字よりもひらがなで表記したほうが読みやすい形式名詞を指摘します。  
-  
-https://github.com/lostandfound/textlint-rule-ja-hiragana-fukushi  
-漢字よりもひらがなで表記したほうが読みやすい副詞を指摘します。  
-  
 https://github.com/lostandfound/textlint-rule-ja-hiragana-hojodoushi  
 漢字よりもひらがなで表記したほうが読みやすい補助動詞を指摘します。  
   
