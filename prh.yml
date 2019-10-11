@@ -54,6 +54,12 @@ rules:
   - pattern: いい
     expected: 良い
 
+  - pattern: という事
+    expected: ということ
+
+  - pattern: 是非
+    expected: ぜひ
+
   - pattern: ＿
     expected: ー
   - pattern: ①
@@ -78,3 +84,7 @@ rules:
     expected: 平方メートル
   - pattern: ㎎
     expected: mg
+  - pattern: '?'
+    expected: ？
+  - pattern: '!'
+    expected: ！

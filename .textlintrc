@@ -8,20 +8,22 @@
     "no-doubled-joshi": {
             "min_interval" : 1,
             "strict": false,
-            "allow": ["たり"],
-            "separatorChars": ["。","?","!","？","！"],
+            "allow": [],
+            "separatorChars": ["。","？","！"],
         },
     "preset-ja-technical-writing": {
-      "no-exclamation-question-mark": false,
-      "ja-no-weak-phrase": false,
-      "max-ten": false,
+      "sentence-length": {
+        max: 100
+      },
       "max-comma": false,
+      "max-ten": false,
       "max-kanji-continuous-len": false,
-      "no-doubled-joshi": false,
-      "no-doubled-conjunction":false,
-      "sentence-length": false,
       "arabic-kanji-numbers": false,
       "ja-no-mixed-period": false,
+      "no-doubled-conjunction":false,
+      "no-doubled-joshi": false,
+      "no-exclamation-question-mark": false,
+      "ja-no-weak-phrase": false,
     },
     "no-mixed-zenkaku-and-hankaku-alphabet": true,
     "preset-jtf-style": {
@@ -38,8 +40,6 @@
             "max_arabic_numeral_digits": false,
             "appropriate_use_of_punctuation": false,
         },
-    "ja-hiragana-keishikimeishi": true,
-    "ja-hiragana-fukushi": true,
     "ja-hiragana-hojodoushi": true,
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": true,
     "prh": {
