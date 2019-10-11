@@ -60,6 +60,11 @@ rules:
   - pattern: 是非
     expected: ぜひ
 
+  - pattern: 
+      - /約.*程度/
+      - /約.*ほど/
+    expected: 【誤った表現です】
+
   - pattern: ＿
     expected: ー
   - pattern: ①
