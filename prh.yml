@@ -65,6 +65,9 @@ rules:
       - /約.*ほど/
     expected: 【誤った表現です】
 
+  - pattern: 当店
+    expected: 当社
+
   - pattern: ＿
     expected: ー
   - pattern: ①
