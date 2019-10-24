@@ -5,12 +5,7 @@
              "max-ten": false,
              "no-doubled-joshi": false,
         },
-    "no-doubled-joshi": {
-            "min_interval" : 1,
-            "strict": false,
-            "allow": [],
-            "separatorChars": ["。","？","！"],
-        },
+    "no-doubled-joshi": false,
     "preset-ja-technical-writing": {
       "sentence-length": {
         max: 100
